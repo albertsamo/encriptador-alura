@@ -221,5 +221,42 @@ main {
 }*/
 
 footer{
+    justify-content: end;
+    padding: 1rem;
+    color: #ffffff;
     background-color: #0a3871;
 }
+
+footer i{
+    
+    font-size: 25px;
+    margin-left: 2rem;
+    color: #ffffff;
+    
+}
+footer h5{
+    font-size: 16px;
+    margin-left: 1rem;
+    color: #ffffff;
+}
+
+.enlace__github{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.enlace__linkedin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+a:visited{
+    color: #ffffff;
+}
+.enlaces a:hover{
+    color: var(--colorUltimo);
+}
+
