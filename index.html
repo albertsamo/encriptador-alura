@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <header>
+        <img src="assets/img/logo-alura.png" class="logo" alt="logo de Alura">
+    </header>
+
+    <main>
+        <section class="contenedor1 contenedores"> 
+            <textarea class="text-area"
+            id="textoEntrada"
+            cols="30" 
+            rows="10" 
+            placeholder="Ingrese el texto aqui">
+            </textarea>
+            <div class="informacion">
+                <img class="informacion__icono" src="assets/img/Vector.svg" alt="icono de alerta">
+                <h6>Solo letras  minúsculas y sin acentos</h6>
+            </div>
+
+            <div class="botones">
+                <button class="btn-encriptar" id="btnEncriptar" >Encriptar</button>
+                <button class="btn-desencriptar" id="btnDesencriptar" >Desencriptar</button>
+            </div>
+        </section>
+    
+        <section class="contenedor2 contenedores">
+            <img id="muneco"  src="assets/img/Muñeco.png" alt="persona buscando con lupa">
+            <h2 id="titulo" >Ningún mensaje fue encontrado</h2>
+            <p id="parrafo">Ingresa el texto que desees encriptar o desencriptar.</p>
+            <textarea 
+            id="textoSalida"
+            cols="30" 
+            rows="10" 
+            class="mensaje hide"
+            placeholder="">
+            </textarea>
+            <div>
+                <button id="btnCopiar" class="btn-copiar hide">Copiar</button>
+            </div>
+            
+        </section>
+        
+    </main>
+    <footer>
+        <div>
+        <img src="assets/img/Vector.svg" alt="">
+        <h5>github</h5>
+    </div>
+
+    <div>
+        <img src="assets/img/Vector.svg" alt="">
+        <h5>linkedin</h5>
+    </div>
+    </footer>
+
+    <script src="assets/js/script.js">      
+    </script>
+</body>
+</html>
