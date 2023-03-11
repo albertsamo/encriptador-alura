@@ -1,0 +1,33 @@
+@media (max-width: 768px) {    
+        
+
+        main{
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+        }
+
+        .contenedores{
+            height: 80%;
+            width: 80%;                      
+        }
+
+        .contenedor2{
+            display:flex;  
+            margin-top: 4rem;                           
+        }
+
+        .contenedor2 img{
+            display: none;
+        }
+}
+
+@media (max-width: 375px) {
+    
+
+    .botones{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
