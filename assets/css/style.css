@@ -79,7 +79,7 @@ main {
 }
 
 ::placeholder{
-    color: red;
+    color: var(--ColorCuatro);
     font-size: 3.2rem;
     
 }
@@ -196,8 +196,9 @@ main {
 }
 
 .contenedor2 textarea{
+    font-size: 3.2rem;
     text-align: center;
-    color: var(--colorSeis);
+    color: var(--ColorSecundario);
 }
 
 .boton__caja2{
